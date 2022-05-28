@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9312f20b098041e693a82467987a4d2a, type: 3}
-  m_Name: Jackson
+  m_Name: BartenderB
   m_EditorClassIdentifier: 
   name: 
   playerInRange: 0
   maxRange: 5
-  inkJSON: {fileID: 4900000, guid: 81b622a4aa949264888d329a1de96686, type: 3}
-  Index: 0
+  inkJSON: {fileID: 4900000, guid: f6c9084057242b44ea9a316ed16d3398, type: 3}
+  Index: 99999

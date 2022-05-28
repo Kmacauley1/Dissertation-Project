@@ -21,6 +21,15 @@ public class NewPlayerMovement : MonoBehaviour
     {
         MovementInput();
         _characterController.Move(_movementDirection * speed * Time.deltaTime);
+
+        if (GameManager.instance.cannotMove)
+        {
+            speed = 0f;
+        }
+        else
+        {
+            speed = 6;
+        }
     }
 
     void MovementInput()
